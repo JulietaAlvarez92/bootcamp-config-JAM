@@ -57,6 +57,9 @@ bootstrap:
     # Support multiple CDF Projects, like dev/test/prod in one config.
         - cdf-project: cdf-bootcamp-18-test
           mappings:
+              - cdf-group: cdf:root
+                idp-source-id: ed1c89fb-87ca-48fc-afb0-9e053d86da32
+                idp-source-name: bootcamp-18-test-admin
               - cdf-group: cdf:all:owner
                 idp-source-id: 0bf15d49-369f-40cf-9dde-616321e786c3
                 idp-source-name: bootcamp-18-test-all-owner
@@ -71,6 +74,9 @@ bootstrap:
                 idp-source-name: bootcamp-18-test-uc-001-oee-read
         - cdf-project: cdf-bootcamp-18-prod
           mappings:
+              - cdf-group: cdf:root
+                idp-source-id: aa7e978d-05e0-4c29-b965-64c669cf1857
+                idp-source-name: bootcamp-18-prod-admin
               - cdf-group: cdf:all:owner
                 idp-source-id: 38992767-a7a6-49bd-93b3-7787b0256ed0
                 idp-source-name: bootcamp-18-prod-all-owner
